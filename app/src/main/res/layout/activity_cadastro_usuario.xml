@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:padding="@dimen/padding_padrao"
+    tools:context="com.melo.danillo.gerenciadordeligas.CadastroUsuarioActivity">
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_facebook"
+        android:text="@string/btn_cadastrar_com_facebook"
+        android:textColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/editText_nome_completo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_facebook"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/txtedit_nome_completo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText_nome_completo"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="@string/editText_email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="@string/editText_senha"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_confirmar_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText_senha"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="@string/editText_confirmar_senha"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_salvar_cadastro_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/botao_salvar"
+        android:text="@string/btn_salvar_cadastro_usuario"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/comboSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText_confirmar_senha"
+        android:layout_marginTop="21dp"
+        android:drawSelectorOnTop="true" />
+</RelativeLayout>

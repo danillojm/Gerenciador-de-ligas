@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Gerenciador de ligas</string>
+    <string name="btn_cadastrar_com_facebook">Criar conta usando o Facebook</string>
+    <string name="txtedit_nome_completo">Nome completo</string>
+    <string name="editText_email">E-mail</string>
+    <string name="editText_senha">Senha</string>
+    <string name="editText_confirmar_senha">Confirmar senha</string>
+    <string name="checkBox_masc">Masculino</string>
+    <string name="checkBox_fem">Feminino</string>
+    <string name="btn_salvar_cadastro_usuario">Cadastrar</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
